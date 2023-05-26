@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    display: block;
+    width: 100vw;
+    height: 220vh;
+    /* width: 100vw;;
+    /* /height: 200vh; */
+    /* overflow-y: scroll; */
+    box-sizing: border-box; 
+ 
+}
+
+.main{
+    
+    width: 100%;
+    height: 100%;
+    background-color:    rgb(165, 42, 42, 0.2)
+}
+
+.navbar{
+    width: 100%;
+    height: 300px;
+    background: center;
+    background-image: url(https://i.pinimg.com/736x/e1/c2/3a/e1c23ac34847740f672717c89a62ae37.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 0px 0px 8px black;
+    margin-bottom: 40px;
+}
+
+.navbar input{
+    position: sticky;
+    top: 60px;
+    left: 15%;
+    width: 70%;
+    height: 60px;
+    border: 0px solid black;
+    background-color: rgb(99, 18, 18,1);
+    padding: 10px;
+    border-radius: 10px;
+    
+}
+
+.pictures{
+    display: flex;
+    width: 100%;
+    height: 300px;
+    /* margin-left: 3em; */
+    /* border: 1px solid black; */
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.pictures div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: rgba(0, 0, 0, 0.8);
+      /* border: 1px solid red; */
+}
+.pictures div h4{
+    margin-top: 1em;
+}
+
+.pictures img{
+    border-radius: 50%;
+    box-shadow: 0px 8px 8px black;
+}
+
+.Description{
+    display: flex;
+    width: 100%;
+    height: 400px;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid red; */
+    
+}
+
+.Description div{
+    width: 90%;
+    height: 100%;
+    align-items: center;
+    background-color:
+    rgb(165, 42, 42, 0.3);
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 20px brown;
+    padding: 30px;
+    /* border: 2px solid black; */
+}
+
+.Description div h2,p{
+    margin: 1em;
+    color: brown;
+}
+
+
+.Description1{
+    display: flex;
+    width: 100%;
+    height: 400px;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid red; */
+    
+}
+
+.Description1 div{
+    margin-top: 6em;
+    width: 90%;
+    height: 100%;
+    align-items: center;
+    background-color:
+    rgb(165, 42, 42, 0.3);
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 20px brown;
+    padding: 30px;
+    /* border: 2px solid black; */
+}
+
+.Description1 ol{
+    margin-left: 2em;
+}
+
+.Description1 div h2,ol,p{
+    /* display: block; */
+      margin: 1em;
+      color: brown;
+}
+
+p{
+    display: block;
+    margin-left: 3em;
+    margin-inline-end: 1.5em ;
+    margin-inline-start: 1.5em;
+}
+
